@@ -7,11 +7,11 @@ def key_for_min_value(name_hash)
   
   while arr.length > 0 do 
     if arr.first > arr.last 
-      arr.pop
-      arr2.pop
-    else
       arr.shift
       arr2.shift
+    else
+      arr.pop
+      arr2.pop
     end
     arr2[0]
   end
