@@ -12,7 +12,6 @@ def key_for_min_value(name_hash)
       arr.pop
       arr2.pop
     end
-    arr2[0]
-    binding.pry
   end
+  arr2[0]
 end
