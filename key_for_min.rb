@@ -4,7 +4,6 @@
 def key_for_min_value(name_hash)
   arr = name_hash.collect {|x,y| y}
   arr2 = name_hash.collect {|x,y| x}
-  binding.pry
   while arr.length > 0 do 
     if arr.first > arr.last 
       arr.shift
@@ -14,5 +13,6 @@ def key_for_min_value(name_hash)
       arr2.pop
     end
     arr2[0]
+    binding.pry
   end
 end
