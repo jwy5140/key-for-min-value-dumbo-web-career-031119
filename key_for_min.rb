@@ -13,5 +13,6 @@ def key_for_min_value(name_hash)
       arr.shift
       arr2.shift
     end
-  arr2[0]
+    arr2[0]
+  end
 end
